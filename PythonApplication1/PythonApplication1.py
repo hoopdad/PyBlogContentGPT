@@ -10,11 +10,11 @@ from google.oauth2.credentials import Credentials
 SCOPES = ['https://www.googleapis.com/auth/blogger']
 
 # Set your OpenAI GPT-3 API key
-openai.api_key = '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'
+openai.api_key = 'TODO'
 
 # Set your Blogger API key and blog ID
-BLOGGER_API_KEY = 'AIzaSyDIfdKy0Fkv9muCl11axQDuVKahzGxxLYY'
-BLOG_ID = '4009390686325870720'
+BLOGGER_API_KEY = 'TODO'
+BLOG_ID = 'TODO'
 blogger_url = f'https://www.googleapis.com/blogger/v3/blogs/{BLOG_ID}/posts/'
     
 my_engine="gpt-3.5"
